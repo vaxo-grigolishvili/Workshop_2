@@ -95,31 +95,48 @@ let student = {
         age:  20,
         studentstatus: 'active'
     }
-       switch (user) {
-        case 1:
-            if(user.age<18 ){
-                if (user.studentstatus= 'active') {
-                    console.log("Hello");
+    //    switch (user) {
+    //     case 1:
+    //         if(user.age<18 ){
+    //             if (user.studentstatus= 'active') {
+    //                 console.log("Hello");
                     
-                }
-            }
+    //             }
+    //         }
             
-            break;
-            case 2: 
-            if(user.name='levani'){
-                console.log("Hello Levani");
-            }
-            break;
-            case 3: 
-            if(user.studentstatus ='active'){
-                console.log("Hello");
-                if(user.age < 25){
-                    console.log("Hello World");
-                }
-            } 
-            break;
+    //         break;
+    //         case 2: 
+    //         if(user.name='levani'){
+    //             console.log("Hello Levani");
+    //         }
+    //         break;
+    //         case 3: 
+    //         if(user.studentstatus ='active'){
+    //             console.log("Hello");
+    //             if(user.age < 25){
+    //                 console.log("Hello World");
+    //             }
+    //         } 
+    //         break;
        
-        default:
-            console.log("Error");
-            break;
-       }
+    //     default:
+    //         console.log("Error");
+    //         break;
+    //    }
+    if (user.name<18) {
+        console.log("Hello");
+        
+    }
+    if (user.name == 'levani') {
+        console.log("Hello levani");
+    }
+    if (user.studentstatus== 'active') {
+        if (user.age< 25) {
+            console.log("hello World");
+            
+        }
+        
+    }
+    else {
+        console.log("Error");
+    }
